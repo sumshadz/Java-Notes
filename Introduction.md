@@ -1,4 +1,4 @@
-Basic Structure of java program:
+# Basic Structure of java program:
 
 --> Every valid Java Application must have a class definition that matches the filename (class name and file name should be same).
 
@@ -14,7 +14,7 @@ public class HelloWorld {
     }
 }
 
-Java JDK, JRE and JVM :
+# Java JDK, JRE and JVM :
 
 What is JVM?
 
@@ -45,7 +45,7 @@ Relationship between JVM, JRE, and JDK:
 
 <img width="422" alt="Screenshot 2023-06-06 at 11 11 40 AM" src="https://github.com/sumshadz/JourneyOfJava/assets/129254642/dd5d96dd-bc38-49af-b717-299e1b29ac9c">
 
-Java Variables:
+# Java Variables:
 
 A variable is a location in memory (storage area) to hold data. To indicate the storage area, each variable should be given a unique name (identifier).
 
@@ -61,4 +61,30 @@ Rules for Naming Variables in Java:
 
 --> If your variable contains more then one word the use camelCase (i.e. isFeatureEnabled )
 
+4 types of variable:
+
+Instance Variables (Non-Static Fields), Class Variables (Static Fields), Local Variables, Parameters
+
+# Java literals
+
+1. Boolean literals : used to initialize boolean data types i.e. true,false
+
+2. Integer literals : An integer literal is a numeric value(associated with numbers) without any fractional or exponential part. 
+
+    // binary
+    int binaryNumber = 0b10010; //0b prefix indicates it is binary
+    
+    // octal 
+    int octalNumber = 027; // 0 prefix indicates it is octal
+    
+    // decimal
+    int decNumber = 34;
+    
+    // hexadecimal 
+    int hexNumber = 0x2F; // 0x represents hexadecimal
+    
+3. Floating-point Literals : A floating-point literal is a numeric literal that has either a fractional form or an exponential form. The floating-point literals are used to initialize float and double type variables. For float (3.4F ) ,for doule(3.4) ,for exponent (3.445e2)
+
+4. Char Literals : Character literals are unicode character enclosed inside single quotes. e.g. 'a' . Escape sequences \b (backspace), \t (tab), \n (new line), etc.
+5. String literals : A string literal is a sequence of characters enclosed inside double-quotes. e.g. "suman"
 
