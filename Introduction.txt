@@ -1,0 +1,23 @@
+Basic Structure of java programc:
+
+--> Every valid Java Application must have a class definition that matches the filename (class name and file name should be same).
+--> The main method must be inside the class definition. i.e. public static void main(String[] args)
+--> The compiler executes the codes starting from the main function.
+
+This is a valid Java program that does nothing.
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+
+Java JDK, JRE and JVM :
+
+What is JVM?
+JVM (Java Virtual Machine) is an abstract machine that enables your computer to run a Java program.
+
+
+Why is Java platform independent?
+Java is a platform-independent language. It's because when you write Java code, it's ultimately written for JVM but not your physical machine (computer). Since JVM 
+executes the Java bytecode which is platform-independent, Java is platform-independent.
