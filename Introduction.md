@@ -88,3 +88,9 @@ Instance Variables (Non-Static Fields), Class Variables (Static Fields), Local V
 4. Char Literals : Character literals are unicode character enclosed inside single quotes. e.g. 'a' . Escape sequences \b (backspace), \t (tab), \n (new line), etc.
 5. String literals : A string literal is a sequence of characters enclosed inside double-quotes. e.g. "suman"
 
+# Java Data Types
+Data types specify the type of data that can be stored inside a variable.
+
+int speed;
+
+int data type determines that the `speed` variable can contain only integer values.
